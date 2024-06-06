@@ -6,7 +6,7 @@ return {
 	config = function()
 		local null_ls = require("null-ls")
 		local venv_path =
-			'import sys; sys.path.append("/home/paukars/.local/share/nvim/mason/packages/pylint/venv/lib/python3.10/site-packages"); import pylint_venv; pylint_venv.inithook(force_venv_activation=True, quiet=True)'
+			'import sys; sys.path.append("/home/paukars/.local/share/nvim/mason/packages/pylint/venv/lib/python3.12/site-packages"); import pylint_venv; pylint_venv.inithook(force_venv_activation=True, quiet=True)'
 		null_ls.setup({
 			sources = {
 				--You need to add each formatter and linter manually for each language
