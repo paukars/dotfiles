@@ -1,14 +1,13 @@
 [env]
 TERM = "xterm-256color"
 [window]
-padding.x = 10
-padding.y = 10
+padding.x = 20
+padding.y = 20
 
 decorations = "none"
-startup_mode = "Fullscreen"
 
-opacity = 0.8
-blur = true
+opacity = 0.5
+blur = false
 
 option_as_alt = "Both"
 
@@ -17,6 +16,7 @@ normal = { family = "JetBrainsMono Nerd Font Mono", style = "Regular" }
 bold = { family = "JetBrainsMono Nerd Font Mono", style = "Bold" }
 italic = { family = "JetBrainsMono Nerd Font Mono", style = "Italic" }
 bold_italic = { family = "JetBrainsMono Nerd Font Mono", style = "Bold Italic" }
+
 size = 18.0
 
 

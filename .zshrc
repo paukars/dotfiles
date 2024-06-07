@@ -21,6 +21,10 @@ fi
 #Source/Load zinit
 source "${ZINIT_HOME}/zinit.zsh"
 
+
+#hyprland color
+source ~/.config/zshrc.d/dots-hyprland.zsh
+
 #Add in Powerlevel10k
 zinit ice depth=1; zinit light romkatv/powerlevel10k
 
@@ -75,6 +79,7 @@ zinit cdreplay -q
 
 #Aliases
 alias ls='ls --color'
+alias dir='dir --color'
 alias nvim='nvim'
 alias c='clear'
 alias tmux='tmux -2'
