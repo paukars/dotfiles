@@ -3,7 +3,7 @@ return {
 		"williamboman/mason.nvim",
 		config = function()
 			require("mason").setup({
-				ensure_installed = { "rust-analyzer", "pylint", "black", "isort" },
+				ensure_installed = { "rust-analyzer", "pylint", "black", "isort", "stylua" },
 			})
 		end,
 	},
