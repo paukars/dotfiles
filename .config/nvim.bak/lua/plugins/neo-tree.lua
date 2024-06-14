@@ -9,7 +9,6 @@ return {
 	config = function()
 		--Toggle is a boolean flag
 		vim.keymap.set("n", "<C-n>", ":Neotree toggle<CR>", {})
-		vim.keymap.set("n", "<C-b>", ":Neotree focus<CR>", {})
 		vim.keymap.set("n", "<C-l>", ":wincmd p<CR>", {})
 	end,
 }
