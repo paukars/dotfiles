@@ -1,0 +1,22 @@
+# Set font family and size
+font_family JetBrainsMono Nerd Font Mono
+font_size 18.0
+
+# Set background opacity
+background_opacity 0.8
+
+# Keybindings
+map ctrl+shift+c copy_to_clipboard
+map ctrl+shift+v paste_from_clipboard
+
+# Additional settings
+scrollback_lines 10000
+
+# Set background color
+background #303446
+
+hide_window_decorations yes
+
+# Remove padding around the terminal
+padding_width 0
+window_padding_width 0
