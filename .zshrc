@@ -23,7 +23,7 @@ source "${ZINIT_HOME}/zinit.zsh"
 
 
 #hyprland color
-source ~/.config/zshrc.d/dots-hyprland.zsh
+#source ~/.config/zshrc.d/dots-hyprland.zsh
 
 #Add in Powerlevel10k
 zinit ice depth=1; zinit light romkatv/powerlevel10k

@@ -6,3 +6,4 @@ init-hook=
 
 [Master]
 disable = c0114,c0116,c0115
+

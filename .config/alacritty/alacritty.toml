@@ -6,9 +6,10 @@ padding.y = 20
 
 decorations = "none"
 
-opacity = 0.5
+opacity = 1
 blur = false
 
+startup_mode = "Maximized"
 option_as_alt = "Both"
 
 [font]
