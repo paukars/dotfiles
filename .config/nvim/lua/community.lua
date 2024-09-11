@@ -13,5 +13,8 @@ return {
   { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.everforest" },
+  { import = "astrocommunity.pack.sql" },
+  { import = "astrocommunity.pack.full-dadbod" },
+  { import = "astrocommunity.pack.markdown" },
   -- import/override with your plugins folder
 }
